@@ -1,4 +1,9 @@
-# Vamsi Indugu – Portfolio Website
+# My Portfolio Website - [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://vamsiindugu.vercel.app/) 
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) &nbsp;
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) &nbsp;
+
+## About the Project  
+This is my personal portfolio website built with **Next.js** and styled using **Tailwind CSS**. The goal of this project is to showcase my skills, projects, and experience in software development. The site is fully responsive and optimized for performance, leveraging **static site generation (SSG)** for improved loading times.  
 
 ## Table of Contents  
 - [About the Project](#about-the-project)  
@@ -11,9 +16,6 @@
 - [Contributing](#contributing)  
 - [Lessons Learned](#lessons-learned)  
 - [Contact](#contact)  
-
-## About the Project  
-This is my personal portfolio website built with **Next.js** and styled using **Tailwind CSS**. The goal of this project is to showcase my skills, projects, and experience in software development. The site is fully responsive and optimized for performance, leveraging **static site generation (SSG)** for improved loading times.  
 
 ## Interesting Techniques  
 This project incorporates several modern web development techniques:  
@@ -95,7 +97,8 @@ This project reinforced:
 
 ## Contact  
 For inquiries or collaboration opportunities:  
-📧 [vamsiindugu@gmail.com](mailto:vamsiindugu@gmail.com)  
-🔗 [Portfolio Website](https://vamsiindugu.vercel.app/)  
-🔗 [LinkedIn](https://www.linkedin.com/in/vamsiindugu/)  
-🔗 [GitHub](https://github.com/vamsiindugu)  
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vamsiindugu@gmail.com) &nbsp;
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vamsi-indugu/) &nbsp;
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vamsiindugu/) &nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://vamsiindugu.vercel.app/) &nbsp;
