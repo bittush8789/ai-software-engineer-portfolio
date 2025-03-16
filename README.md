@@ -97,7 +97,8 @@ This project reinforced:
 
 ## Contact  
 For inquiries or collaboration opportunities:  
- ✉︎  [vamsiindugu@gmail.com](mailto:vamsiindugu@gmail.com)  
- 🌐 [Portfolio Website](https://vamsiindugu.vercel.app/)  
- 🇮🇳  [LinkedIn](https://www.linkedin.com/in/vamsiindugu/)  
-👩🏻‍💻  [GitHub](https://github.com/vamsiindugu)  
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vamsiindugu@gmail.com) &nbsp;
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vamsi-indugu/) &nbsp;
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vamsiindugu/) &nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://vamsiindugu.vercel.app/) &nbsp;
