@@ -1,4 +1,4 @@
-# My Portfolio Website - [Vamsi](https://vamsiindugu.vercel.app/) 
+# My Portfolio Website - [vamsiindugu.dev](https://vamsiindugu.vercel.app/) 
 
 ## About the Project  
 This is my personal portfolio website built with **Next.js** and styled using **Tailwind CSS**. The goal of this project is to showcase my skills, projects, and experience in software development. The site is fully responsive and optimized for performance, leveraging **static site generation (SSG)** for improved loading times.  
