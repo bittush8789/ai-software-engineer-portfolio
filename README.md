@@ -1,4 +1,7 @@
-# Vamsi Indugu – Portfolio Website
+# My Portfolio Website
+
+## About the Project  
+This is my personal portfolio website built with **Next.js** and styled using **Tailwind CSS**. The goal of this project is to showcase my skills, projects, and experience in software development. The site is fully responsive and optimized for performance, leveraging **static site generation (SSG)** for improved loading times.  
 
 ## Table of Contents  
 - [About the Project](#about-the-project)  
@@ -11,9 +14,6 @@
 - [Contributing](#contributing)  
 - [Lessons Learned](#lessons-learned)  
 - [Contact](#contact)  
-
-## About the Project  
-This is my personal portfolio website built with **Next.js** and styled using **Tailwind CSS**. The goal of this project is to showcase my skills, projects, and experience in software development. The site is fully responsive and optimized for performance, leveraging **static site generation (SSG)** for improved loading times.  
 
 ## Interesting Techniques  
 This project incorporates several modern web development techniques:  
