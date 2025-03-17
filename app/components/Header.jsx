@@ -33,7 +33,7 @@ const Header = () => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6, delay : 0.7}}
       className='max-w-2xl text-base mx-auto mt-3 font-Ovo'>
-        I am a Software Developer from Vizag, India with a knowledge to build softwares we use.
+        I am a Software Developer from Vizag, India with a knowledge to build softwares.
       </motion.p>
 
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-7 '>
