@@ -90,7 +90,7 @@ const Contact = () => {
             <motion.textarea 
             initial={{ y:100 , opacity: 0 }}
             whileInView={{ y :0, opacity: 1}}
-            transition={{ delay: 1.25,duration: 0.6 }}
+            transition={{ delay: 1.22,duration: 0.6 }}
             
             
             rows='6' placeholder='Enter your message' required
