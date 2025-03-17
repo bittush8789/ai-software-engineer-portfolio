@@ -22,12 +22,7 @@ const Header = () => {
       initial={{ y: -30, opacity: 0 }}
       whileInView={{ y:0, opacity: 1 }}
       transition={{ duration: 0.8, delay : 0.5}}
-      className='text-3xl sm:text-3xl lg:text-[50px] font-Ovo'>A self-taught Software Developer, </motion.h1> 
-      <motion.h2 
-      initial={{ y: -30, opacity: 0 }}
-      whileInView={{ y:0, opacity: 1 }}
-      transition={{ duration: 0.8, delay : 0.5}}
-      className='text-3xl sm:text-2xl lg:text-[50px] font-Ovo'>with an interest in CS.</motion.h2>
+      className=' max-w-max text-3xl leading-tight sm:text-4xl/11 lg:text-[50px] font-Ovo'>A self-taught Software Developer, with an interest in CS.</motion.h1> 
       <motion.p 
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -41,7 +36,7 @@ const Header = () => {
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y:0, opacity: 1 }}
           transition={{ duration: 0.6, delay : 1}}
-          href='#contact' className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'> Say Hi ! <Image src={assets.arrow_icon_dark} alt='' className='w-2'/></motion.a>
+          href='#contact' className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'> Say Hi ! &nbsp;&nbsp; <Image src={assets.arrow_icon_dark} alt='' className='w-2'/></motion.a>
           <motion.a 
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y:0, opacity: 1 }}
