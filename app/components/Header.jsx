@@ -32,7 +32,7 @@ const Header = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6, delay : 0.7}}
-      className='max-w-3xl text-lg mx-auto mt-3 font-Ovo'>
+      className='max-w-max text-lg mx-auto mt-3 font-Ovo'>
         I am a Software Developer from Vizag, India with a knowledge to build softwares.
       </motion.p>
 
