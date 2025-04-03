@@ -56,72 +56,8 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
             <button onClick={()=> setIsDarkMode(prev => !prev)} >
                 <Image src={isDarkMode ?  assets.sun_icon : assets.moon_icon} alt="" className='w-6'/>
             </button>
-            <a href="https://www.linkedin.com/in/vamsi-indugu/" target="_blank" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border-2 border-gray-500 rounded-full ml-4 font-Ovo dark:border-white/50'
             
-            style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '0.75rem',
-                padding: '0.625rem 2.5rem',
-                border: '2px solid transparent',
-                borderRadius: '9999px',
-                fontFamily: 'Ovo, serif',
-                color: isDarkMode ? 'white' : 'black',
-                background: 'transparent',
-                position: 'relative',
-                overflow: 'hidden',
-                zIndex: 1,
-                animation: 'spin 2.5s infinite linear paused',
-                backgroundImage: `
-                  linear-gradient(
-                    to bottom,
-                    ${isDarkMode ? 'rgba(16, 16, 16, 0.95)' : 'rgba(255, 255, 255, 0.95)'},
-                    ${isDarkMode ? 'rgba(16, 16, 16, 0.95)' : 'rgba(255, 255, 255, 0.95)'}
-                  ) padding-box,
-                  conic-gradient(
-                    from var(--bg-angle, 0deg) in oklch longer hue,
-                    oklch(0.85 0.37 0) 0 0
-                  ) border-box
-                `,
-                border: '2px solid transparent',
-                transition: '--bg-angle 2.5s linear',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.setProperty('--bg-angle', '360deg');
-                e.currentTarget.style.animationPlayState = 'running';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.setProperty('--bg-angle', '0deg');
-                e.currentTarget.style.animationPlayState = 'paused';
-              }}
-            
-            >Connect<Image src={ isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon} alt="" className='w-3'/>
-                            <span
-                    style={{
-                    position: 'absolute',
-                    top: '0',
-                    left: '0',
-                    right: '0',
-                    bottom: '0',
-                    zIndex: '-1',
-                    
-                    borderRadius: '9999px',
-                    border: '2px solid transparent',
-                    background: `
-                        linear-gradient(
-                        to bottom,
-                        ${isDarkMode ? 'rgba(16, 16, 16, 0.95)' : 'rgba(255, 255, 255, 0.95)'},
-                        ${isDarkMode ? 'rgba(16, 16, 16, 0.95)' : 'rgba(255, 255, 255, 0.95)'}
-                        ) padding-box,
-                        conic-gradient(
-                        from var(--bg-angle, 0deg) in oklch longer hue,
-                        oklch(0.85 0.37 0) 0 0
-                        ) border-box
-                    `,
-                    transition: '--bg-angle 2.5s linear',
-                    }}
-                ></span>
-        </a>
+            <a href="https://www.linkedin.com/in/vamsi-indugu/" target="_blank" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border-2 border-gray-500 rounded-full ml-4 font-Ovo dark:border-white/50'>Connect <Image src={ isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon} alt="" className='w-3'/></a>
 
             <button className='block md:hidden ml-3'onClick={openMenu}>
                 <Image src={ isDarkMode ? assets.menu_white : assets.menu_black} alt="" className='w-6'/>  
