@@ -91,6 +91,12 @@ export const workData = [
         bgImage: '/project-2.png',
         link:'https://github.com/Vamsiindugu/Black-Friday-Sales-Prediction',
     },
+    {
+        title: 'Netflix Movies and TV Shows Clustering',
+        description: 'AI-ML Project',
+        bgImage: '/project-3.png',
+        link:'https://github.com/Vamsiindugu/Netflix-Movies-and-TV-Shows-Clustering',
+    },
     // {
     //     title: 'Photography site',
     //     description: 'Web Design',
