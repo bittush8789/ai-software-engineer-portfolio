@@ -11,12 +11,6 @@ const About = ({isDarkMode}) => {
     transition={{ duration: 1 }}
     
     id='about' className='w-full px-[12%] py-10 scroll-mt-20'>
-      <motion.h4
-      initial={{ opacity: 0 , y : -20}}
-      whileInView={{opacity: 1, y:0}}
-      transition={{ duration: 0.5, delay: 0.3}}
-      
-      className='text-center mb-2 text-lg font-Ovo '>Introduction of </motion.h4>
       <motion.h2 
       initial={{ opacity: 0 , y : -20}}
       whileInView={{opacity: 1, y:0}}
@@ -29,7 +23,7 @@ const About = ({isDarkMode}) => {
         whileInView={{opacity: 1}}
         transition={{ duration: 0.8}}      
         
-        className='flex w-full flex-col items-center lg:flex-row lg:items-start gap-20 my-10'>
+        className='flex w-full flex-col items-center lg:flex-row lg:items-start gap-20 my-5'>
 
           <motion.div 
           initial={{ opacity: 0, scale: 0.9}}
@@ -48,9 +42,7 @@ const About = ({isDarkMode}) => {
           
           className='flex-1'>
             <p className=' text-lg mb-10 max-w-2xl font-Ovo'>
-                            A dedicated and enthusiastic programmer with a keen interest in AI and ML.🚀 <br></br>
-                            I have a passion for problem-solving and pioneering first-principle thinking, driven by purpose and fueled by the challenge of finding solutions, with a good foundation in Python, Java, Javascript, AWS etc. I've developed a Machine Learning model from scratch with the commitment to making a positive impact through technology.
-                            I'm an explorer of new tech, an avid learner, and a problem-solver at heart. When I'm not in code, you'll find me watching tech-related YouTube videos, fueling my curiosity. I'm always looking for new opportunities to learn and grow, and I'm excited to see where my journey takes me next.🚀
+              A dedicated programmer with a strong interest in AI and ML. 🚀 I'm passionate about problem-solving and first-principle thinking, with a solid foundation in Python, Java, JavaScript, and AWS. Having built ML models from scratch, I'm committed to making a positive impact through technology. An avid learner and explorer, I'm always seeking new opportunities to grow. 🚀
             </p>
             <motion.ul
             initial={{ opacity: 0}}
@@ -69,14 +61,14 @@ const About = ({isDarkMode}) => {
                         hover:shadow-myblack dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50'
                           key={index}>
                             <Image src={isDarkMode ? iconDark : icon} alt={title} className='w-7 mt-3'/>
-                            <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>{title}</h3>
+                            <h3 className='my-1 font-semibold text-gray-700 dark:text-white'>{title}</h3>
                             <p className='text-gray-600 text-sm dark:text-white/80'>{description}</p>
                         </motion.li>
                     ))}
 
                 </motion.ul>
                 
-                {/* <motion.h4 
+                <motion.h4 
                 initial={{ y:20,  opacity: 0}}
                 whileInView={{ y : 0, opacity: 1}}
                 transition={{ duration: 0.5, delay: 1.3}}
@@ -100,7 +92,7 @@ const About = ({isDarkMode}) => {
                         </motion.li>
                       
                       ))}
-                  </motion.ul> */}
+                  </motion.ul> 
               
           </motion.div>
         </motion.div>
