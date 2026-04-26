@@ -41,7 +41,7 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
     <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-mywhite/2" : ""}`}>
 
         <a href="#top">
-            <Image src={isDarkMode ? assets.logo_dark : assets.logo} alt="" className='w-28 alt="" cursor-pointer mr-14'/>
+            <Image src={isDarkMode ? assets.logo_dark : assets.logo} alt="" className='w-28 alt="" cursor-pointer mr-14' suppressHydrationWarning/>
         </a>    
 
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : " bg-white shadow-sm bg-opacity-50 dark border dark:border-white/50 dark:bg-transparent "}`}>
@@ -54,13 +54,13 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
 
         <div className='flex items-center gap-4'> 
             <button onClick={()=> setIsDarkMode(prev => !prev)} >
-                <Image src={isDarkMode ?  assets.sun_icon : assets.moon_icon} alt="" className='mr-4 w-6'/>
+                <Image src={isDarkMode ?  assets.sun_icon : assets.moon_icon} alt="" className='mr-4 w-6' suppressHydrationWarning/>
             </button>
             
-            <a href="https://www.linkedin.com/in/vamsi-indugu/" target="_blank" className='flex items-center gap-2 px-8 py-2.5 border-2 border-gray-500 rounded-full  font-Ovo dark:border-white/50'>Connect<Image src={ isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon} alt="" className='w-3'/></a>
+            <a href="https://www.linkedin.com/in/vamsi-indugu/" target="_blank" className='flex items-center gap-2 px-8 py-2.5 border-2 border-gray-500 rounded-full  font-Ovo dark:border-white/50'>Connect<Image src={ isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon} alt="" className='w-3' suppressHydrationWarning/></a>
 
             <button className='block md:hidden ml-3'onClick={openMenu}>
-                <Image src={ isDarkMode ? assets.menu_white : assets.menu_black} alt="" className='w-6'/>  
+                <Image src={ isDarkMode ? assets.menu_white : assets.menu_black} alt="" className='w-6' suppressHydrationWarning/>  
             </button> 
         </div>
 
@@ -68,7 +68,7 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
         <ul ref ={sideMenuRef} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 dark:bg-darkHover dark:text-white'>  
             
             <div className='absolute right-6 top-6' onClick={closeMenu}>
-                <Image src ={isDarkMode ? assets.close_white : assets.close_black} alt='' className='w-5 cursor-pointer' />
+                <Image src ={isDarkMode ? assets.close_white : assets.close_black} alt='' className='w-5 cursor-pointer' suppressHydrationWarning />
             </div>
             
             

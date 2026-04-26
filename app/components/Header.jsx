@@ -22,13 +22,14 @@ const Header = () => {
       initial={{ y: -30, opacity: 0 }}
       whileInView={{ y:0, opacity: 1 }}
       transition={{ duration: 0.8, delay : 0.5}}
-      className='text-3xl leading-tight sm:text-4xl/11 lg:text-[50px] font-Ovo'>A Software Developer, with an interest in CS.</motion.h1> 
+      className='text-3xl leading-tight sm:text-4xl/11 lg:text-[50px] font-Ovo'> A Software Developer, who chooses simplicity over complexity
+      </motion.h1> 
       <motion.p 
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6, delay : 0.7}}
       className='text-lg mx-auto mt-3 font-Ovo'>
-        I am a Software Developer from Vizag, India with a knowledge to build softwares.
+        The elegance of my code was never in the code itself, but in the eyes of the devs who inherits it.
       </motion.p>
 
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-7 '>

@@ -60,7 +60,7 @@ const About = ({isDarkMode}) => {
                         hover:-translate-y-1 duration-500
                         hover:shadow-myblack dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50'
                           key={index}>
-                            <Image src={isDarkMode ? iconDark : icon} alt={title} className='w-7 mt-3'/>
+                            <Image src={isDarkMode ? iconDark : icon} alt={title} className='w-7 mt-3' suppressHydrationWarning/>
                             <h3 className='my-1 font-semibold text-gray-700 dark:text-white'>{title}</h3>
                             <p className='text-gray-600 text-sm dark:text-white/80'>{description}</p>
                         </motion.li>
