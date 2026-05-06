@@ -80,33 +80,35 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Credit Card Fraud Detection Using CNN',
+        title: 'CCFD',
         description: 'AI-ML Project',
         bgImage: '/project-1.png',
         link:'https://github.com/Vamsiindugu/Credit-Card-Fraud-Detection-Using-CNN',
     },
     {
-        title: 'Black Friday Sales Prediction',
+        title: 'BFSP',
         description: 'ML Project',
         bgImage: '/project-2.png',
         link:'https://github.com/Vamsiindugu/Black-Friday-Sales-Prediction',
     },
     {
-        title: 'Netflix Movies and TV Shows Clustering',
-        description: 'AI-ML Project',
+        title: 'QR-Code',
+        description: 'Web Project',
         bgImage: '/project-3.png',
-        link:'https://github.com/Vamsiindugu/Netflix-Movies-and-TV-Shows-Clustering',
+        link:'https://github.com/Vamsiindugu/QR-Code-Generator',
     },
-    // {
-    //     title: 'Photography site',
-    //     description: 'Web Design',
-    //     bgImage: '/project-1.png',
-    // },
-    // {
-    //     title: 'UI/UX designing',
-    //     description: 'UI/UX Design',
-    //     bgImage: '/project-1.png',
-    // },
+    {
+        title: 'GH-Scrape',
+        description: 'CLI Tool',
+        bgImage: '/project-4.png',
+        link:'https://github.com/Vamsiindugu/Github-Scrape',
+    },
+    {
+        title: 'Jarvis',
+        description: 'A.I Assistant',
+        bgImage: '/project-5.png',
+        link:'https://github.com/Vamsiindugu/Jarvis',
+    },
 ]
 
 export const serviceData = [
