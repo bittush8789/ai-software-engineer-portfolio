@@ -1,0 +1,13 @@
+node_modules
+.next
+build
+out
+.git
+.gitignore
+.vscode
+Dockerfile
+.dockerignore
+README.md
+task.md
+implementation_plan.md
+walkthrough.md
