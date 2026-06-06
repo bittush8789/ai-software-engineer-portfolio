@@ -85,7 +85,7 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
                 <Image src={isDarkMode ?  assets.sun_icon : assets.moon_icon} alt="" className='mr-4 w-6' suppressHydrationWarning/>
             </button>
             
-            <a href="https://www.linkedin.com/in/bittu-kumar-54ab13254/" target="_blank" className='flex items-center gap-2 px-8 py-2.5 border-2 border-gray-500 rounded-full  font-Ovo dark:border-white/50'>Connect<Image src={ isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon} alt="" className='w-3' suppressHydrationWarning/></a>
+            <a href="https://www.linkedin.com/in/bittu-kumar-54ab13254/" target="_blank" className='hidden sm:flex items-center gap-2 px-8 py-2.5 border-2 border-gray-500 rounded-full  font-Ovo dark:border-white/50'>Connect<Image src={ isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon} alt="" className='w-3' suppressHydrationWarning/></a>
 
             <button className='block md:hidden ml-3'onClick={openMenu}>
                 <Image src={ isDarkMode ? assets.menu_white : assets.menu_black} alt="" className='w-6' suppressHydrationWarning/>  
@@ -105,6 +105,7 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
             {/* <li><a  className='font-Ovo'onClick={closeMenu} href="#services" >Services</a></li> */}
             <li><a  className='font-Ovo'onClick={closeMenu} href="#work" >My Work</a></li>
             <li><a  className='font-Ovo'onClick={closeMenu} href="#contact" >Contact me</a></li>
+            <li><a  className='font-Ovo' onClick={closeMenu} href="https://www.linkedin.com/in/bittu-kumar-54ab13254/" target="_blank">Connect</a></li>
         </ul>
 
     </nav> 
