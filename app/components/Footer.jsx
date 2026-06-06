@@ -19,9 +19,10 @@ const Footer = ({isDarkMode}) => {
         <div className='text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] py-6 mt-12'>
             <p>© 2026 Bittu Sharma. All rights reserved</p>
             <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
-                <li><a target='_blank' href='https://www.linkedin.com/in/vamsi-indugu/'>LinkedIn</a></li>
-                <li><a target='_blank'href='https://github.com/Vamsiindugu/'>Github</a></li>
-                <li><a target='_blank'href='https://x.com/vamsiindugu'>X</a></li>
+                <li><a target='_blank' href='https://www.linkedin.com/in/bittu-sharma/'>LinkedIn</a></li>
+                <li><a target='_blank' href='https://github.com/bittush8789/'>Github</a></li>
+                <li><a target='_blank' href='https://bittush8789.hashnode.dev/'>Hashnode</a></li>
+                <li><a target='_blank' href='https://x.com/bittush8789'>X</a></li>
             </ul>
 
 
