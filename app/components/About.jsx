@@ -80,24 +80,35 @@ const About = ({isDarkMode}) => {
                 
                 className='my-6 text-gray-700 font-Ovo  dark:text-white/80'>Technologies I use</motion.h4>
 
-                  <motion.ul 
+                  <motion.div 
                   initial={{ opacity: 0}}
                   whileInView={{ opacity: 1}}
                   transition={{ delay: 1.5, duration: 0.6}}
-                  
-                  className='flex items-center gap-3 sm:gap-5 flex-wrap'>
-                    {toolsData.map((tool,index)=>(
-                        <motion.li 
-                        whileHover={{scale: 1.1}}
-                        
-                        className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500' 
-                        key={index}>
-                          <Image src={tool} alt='Tool' className='w-7 sm:w-7'/> 
-
-                        </motion.li>
-                      
-                      ))}
-                  </motion.ul> 
+                  className='flex items-center gap-3 flex-wrap max-w-2xl mt-4'>
+                    {[
+                      { name: 'Python', emoji: '🐍' },
+                      { name: 'FastAPI', emoji: '⚡' },
+                      { name: 'OpenAI', emoji: '🤖' },
+                      { name: 'Gemini', emoji: '💎' },
+                      { name: 'LangChain', emoji: '🦜' },
+                      { name: 'LangGraph', emoji: '🕸️' },
+                      { name: 'Hugging Face', emoji: '🤗' },
+                      { name: 'Docker', emoji: '🐳' },
+                      { name: 'Kubernetes', emoji: '☸️' },
+                      { name: 'AWS', emoji: '☁️' },
+                      { name: 'MLflow', emoji: '📊' },
+                      { name: 'GitHub', emoji: '🐙' }
+                    ].map((tech, index) => (
+                      <motion.div 
+                        whileHover={{ scale: 1.05 }}
+                        className='flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-xl cursor-pointer hover:bg-lightHover duration-300 dark:border-white/20 dark:hover:bg-darkHover/30 text-sm font-Ovo'
+                        key={index}
+                      >
+                        <span>{tech.emoji}</span>
+                        <span className="text-gray-700 dark:text-white/90 font-medium">{tech.name}</span>
+                      </motion.div>
+                    ))}
+                  </motion.div> 
               
           </motion.div>
         </motion.div>
