@@ -133,7 +133,7 @@ export const serviceData = [
 export const infoList = [
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'BCA in Computer Science' }, 
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Java, Python, JavaScript, SQL, NextJS' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built projects on AI-ML and Java' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Experience', description: '2+ Years DevOps & MLOps Engineer at EXL Service' }
 ];
 
 export const toolsData = [
