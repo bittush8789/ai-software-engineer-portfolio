@@ -91,36 +91,6 @@ export const workData = [
         bgImage: '/github-ai-reviewer.png',
         link: 'https://github.com/bittush8789/GitHub-PR-Code-AI-Reviewer',
     },
-    {
-        title: 'CCFD',
-        description: 'AI-ML Project',
-        bgImage: '/project-1.png',
-        link:'https://github.com/Vamsiindugu/Credit-Card-Fraud-Detection-Using-CNN',
-    },
-    {
-        title: 'BFSP',
-        description: 'ML Project',
-        bgImage: '/project-2.png',
-        link:'https://github.com/Vamsiindugu/Black-Friday-Sales-Prediction',
-    },
-    {
-        title: 'QR-Code',
-        description: 'Web Project',
-        bgImage: '/project-3.png',
-        link:'https://github.com/Vamsiindugu/QR-Code-Generator',
-    },
-    {
-        title: 'GH-Scrape',
-        description: 'CLI Tool',
-        bgImage: '/project-4.png',
-        link:'https://github.com/Vamsiindugu/Github-Scrape',
-    },
-    {
-        title: 'Jarvis',
-        description: 'A.I Assistant',
-        bgImage: '/project-5.png',
-        link:'https://github.com/Vamsiindugu/Jarvis',
-    },
 ]
 
 export const serviceData = [
