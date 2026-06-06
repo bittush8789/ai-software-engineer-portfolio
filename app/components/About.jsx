@@ -41,9 +41,17 @@ const About = ({isDarkMode}) => {
           
           
           className='flex-1'>
-            <p className=' text-lg mb-10 max-w-2xl font-Ovo'>
-              A dedicated programmer with a strong interest in AI and ML. 🚀 I'm passionate about problem-solving and first-principle thinking, with a solid foundation in Python, Java, JavaScript, and AWS. Having built ML models from scratch, I'm committed to making a positive impact through technology. An avid learner and explorer, I'm always seeking new opportunities to grow. 🚀
-            </p>
+            <div className='text-lg mb-10 max-w-2xl font-Ovo space-y-4 text-gray-700 dark:text-white/80'>
+              <p>
+                I'm an AI Software Engineer with 2+ years of experience in DevOps and MLOps engineering, currently expanding my expertise in AI Engineering, Agentic AI, and Large Language Model (LLM) applications. 🚀 I specialize in building scalable, production-ready systems that combine modern software engineering, cloud infrastructure, and artificial intelligence.
+              </p>
+              <p>
+                With a strong foundation in Python, AWS, Docker, Kubernetes, CI/CD, and MLOps workflows, I enjoy designing intelligent applications, automating machine learning lifecycles, and developing AI-powered solutions that solve real-world problems. My passion lies in bridging the gap between software engineering, cloud infrastructure, and AI to create reliable, efficient, and impactful products.
+              </p>
+              <p>
+                As a continuous learner and technology enthusiast, I actively explore Generative AI, RAG, LLMOps, Multi-Agent Systems, and AI Infrastructure, always striving to stay at the forefront of innovation and deliver meaningful solutions through technology. 🤖✨
+              </p>
+            </div>
             <motion.ul
             initial={{ opacity: 0}}
             whileInView={{opacity: 1}}
