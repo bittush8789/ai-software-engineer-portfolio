@@ -17,19 +17,19 @@ const Header = () => {
       initial={{ y: -20, opacity: 0 }}
       whileInView={{ y:0, opacity: 1 }}
       transition={{ duration: 0.6, delay : 0.3}}
-      className='flex items-center gap-2 mb-3 text-xl md:text-2xl font-Ovo'>Hi ! I'm Vamsi <Image src={assets.hand_icon} alt='' className=' w-5'/></motion.h3>
+      className='flex items-center gap-2 mb-3 text-xl md:text-2xl font-Ovo'>Hi ! I'm Bittu <Image src={assets.hand_icon} alt='' className=' w-5'/></motion.h3>
       <motion.h1 
       initial={{ y: -30, opacity: 0 }}
       whileInView={{ y:0, opacity: 1 }}
       transition={{ duration: 0.8, delay : 0.5}}
-      className='text-3xl leading-tight sm:text-4xl/11 lg:text-[50px] font-Ovo'> A Software Developer, who chooses simplicity over complexity
+      className='text-3xl leading-tight sm:text-4xl/11 lg:text-[50px] font-Ovo'> AI Software Engineer, Building Intelligent Systems That Scale
       </motion.h1> 
       <motion.p 
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6, delay : 0.7}}
       className='text-lg mx-auto mt-3 font-Ovo'>
-        The elegance of my code was never in the code itself, but in the eyes of the devs who inherits it.
+        I design and deploy AI-powered applications, autonomous agents, and cloud-native infrastructure—transforming complex challenges into intelligent, reliable, and production-ready solutions. 🚀 
       </motion.p>
 
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-7 '>

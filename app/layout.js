@@ -12,7 +12,7 @@ const ovo = Ovo({
 });
 
 export const metadata = {
-  title: "Vamsi Indugu | Portfolio",
+  title: "Bittu Sharma | Portfolio",
   description: "Personal portfolio website showcasing my work and experience",
 };
 

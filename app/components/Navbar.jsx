@@ -40,8 +40,10 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
 
     <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-mywhite/2" : ""}`}>
 
-        <a href="#top">
-            <Image src={isDarkMode ? assets.logo_dark : assets.logo} alt="" className='w-28 alt="" cursor-pointer mr-14' suppressHydrationWarning/>
+        <a href="#top" className="flex items-center">
+            <span className="text-2xl font-bold font-Ovo tracking-wide text-black dark:text-white cursor-pointer mr-14" suppressHydrationWarning>
+              Bittu<span className="text-red-500">.</span>
+            </span>
         </a>    
 
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : " bg-white shadow-sm bg-opacity-50 dark border dark:border-white/50 dark:bg-transparent "}`}>
