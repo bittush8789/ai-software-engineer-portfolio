@@ -80,6 +80,12 @@ export const assets = {
 
 export const workData = [
     {
+        title: 'AI Reviewer',
+        description: '🧠 GitHub PR Code AI Reviewer',
+        bgImage: '/github-ai-reviewer.png',
+        link: 'https://github.com/bittush8789/GitHub-PR-Code-AI-Reviewer',
+    },
+    {
         title: 'CCFD',
         description: 'AI-ML Project',
         bgImage: '/project-1.png',
