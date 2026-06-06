@@ -3,6 +3,29 @@ import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React, { useEffect, useRef, useState } from 'react'
 
+/**
+ * Throttles the execution of a function.
+ * Limits execution rate to prevent high CPU utilization on fast scroll events.
+ * 
+ * --- Complexity Analysis ---
+ * - Time Complexity: O(1) - Constant execution time per check.
+ * - Space Complexity: O(1) - Constant memory allocation for the state closure.
+ * 
+ * @param {Function} func - The callback function to execute.
+ * @param {number} limit - The time limit in milliseconds.
+ * @returns {Function} - Throttled wrapper function.
+ */
+const throttle = (func, limit) => {
+  let inThrottle;
+  return function(...args) {
+    if (!inThrottle) {
+      func.apply(this, args);
+      inThrottle = true;
+      setTimeout(() => inThrottle = false, limit);
+    }
+  }
+}
+
 const Navbar = ({isDarkMode, setIsDarkMode}) => {
 
   const [isScroll, setIsScroll] = useState(false)
@@ -20,16 +43,19 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
   }
   
   useEffect(() => {
-    window.addEventListener('scroll',()=>{
-        if(scrollY > 50){
-            setIsScroll(true)
-        }else{
-            setIsScroll(false)
-        }
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScroll(true);
+      } else {
+        setIsScroll(false);
+      }
+    };
 
-    })
+    const throttledScroll = throttle(handleScroll, 100);
 
-  }, [])  
+    window.addEventListener('scroll', throttledScroll);
+    return () => window.removeEventListener('scroll', throttledScroll);
+  }, []);
 
   return (
     <>
