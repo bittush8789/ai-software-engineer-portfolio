@@ -80,6 +80,12 @@ export const assets = {
 
 export const workData = [
     {
+        title: 'MLOps NLP',
+        description: '🚀 MLOps NLP Production System',
+        bgImage: '/mlops-nlp-system.png',
+        link: 'https://github.com/bittush8789/MLOps-NLP-Production-System',
+    },
+    {
         title: 'AI Reviewer',
         description: '🧠 GitHub PR Code AI Reviewer',
         bgImage: '/github-ai-reviewer.png',
