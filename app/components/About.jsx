@@ -30,7 +30,7 @@ const About = ({isDarkMode}) => {
           whileInView={{opacity: 1, scale: 1}}
           transition={{ duration: 0.6}}
                     
-          className='w-80 sm:w-[380px] lg:w-[420px] rounded-3xl max-w-none'>
+          className='w-full max-w-[350px] sm:max-w-[380px] lg:max-w-[420px] rounded-3xl'>
             <Image src={assets.user_image} alt='user' className='w-full rounded-3xl shadow-lg'/>
           </motion.div>
 
@@ -85,7 +85,7 @@ const About = ({isDarkMode}) => {
                   whileInView={{ opacity: 1}}
                   transition={{ delay: 1.5, duration: 0.6}}
                   
-                  className='flex items-center gap-3 sm:gap-5'>
+                  className='flex items-center gap-3 sm:gap-5 flex-wrap'>
                     {toolsData.map((tool,index)=>(
                         <motion.li 
                         whileHover={{scale: 1.1}}
