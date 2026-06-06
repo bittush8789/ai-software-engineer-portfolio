@@ -43,13 +43,10 @@ const About = ({isDarkMode}) => {
           className='flex-1'>
             <div className='text-lg mb-10 max-w-2xl font-Ovo space-y-4 text-gray-700 dark:text-white/80'>
               <p>
-                I'm an AI Software Engineer with 2+ years of experience in DevOps and MLOps engineering, currently expanding my expertise in AI Engineering, Agentic AI, and Large Language Model (LLM) applications. 🚀 I specialize in building scalable, production-ready systems that combine modern software engineering, cloud infrastructure, and artificial intelligence.
+                I'm an AI Software Engineer with 2+ years of experience in DevOps and MLOps, passionate about building intelligent, scalable, and production-ready applications. 🚀
               </p>
               <p>
-                With a strong foundation in Python, AWS, Docker, Kubernetes, CI/CD, and MLOps workflows, I enjoy designing intelligent applications, automating machine learning lifecycles, and developing AI-powered solutions that solve real-world problems. My passion lies in bridging the gap between software engineering, cloud infrastructure, and AI to create reliable, efficient, and impactful products.
-              </p>
-              <p>
-                As a continuous learner and technology enthusiast, I actively explore Generative AI, RAG, LLMOps, Multi-Agent Systems, and AI Infrastructure, always striving to stay at the forefront of innovation and deliver meaningful solutions through technology. 🤖✨
+                With expertise in Python, AWS, Docker, Kubernetes, CI/CD, and MLOps, I develop AI-powered solutions, automate ML workflows, and design cloud-native systems. Currently, I'm deepening my knowledge in AI Engineering, Agentic AI, LLMOps, RAG, and Multi-Agent Systems to create impactful real-world AI products. 🤖✨
               </p>
             </div>
             <motion.ul
