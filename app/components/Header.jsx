@@ -95,8 +95,9 @@ const Header = () => {
                   initial={{ opacity: 0, y: 15, scale: 0.95 }}
                   animate={{ opacity: 1, y: 0, scale: 1 }}
                   exit={{ opacity: 0, y: 15, scale: 0.95 }}
+                  style={{ transformOrigin: "top center" }}
                   transition={{ duration: 0.2, ease: "easeOut" }}
-                  className="absolute right-0 left-0 sm:left-auto mt-3 w-64 rounded-2xl bg-white dark:bg-darkTheme border border-gray-200 dark:border-white/10 shadow-2xl p-2 z-50 overflow-hidden font-Ovo"
+                  className="absolute left-1/2 -translate-x-1/2 sm:left-auto sm:right-0 sm:translate-x-0 mt-3 w-64 rounded-2xl bg-white dark:bg-darkTheme border border-gray-200 dark:border-white/10 shadow-2xl p-2 z-50 overflow-hidden font-Ovo"
                 >
                   {/* DevOps Resume Item */}
                   <div className="flex flex-col gap-1 p-2 rounded-xl hover:bg-lightHover dark:hover:bg-darkHover/40 transition-all duration-200">
